@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81544DE81DCAD7CA00EA35F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81544DE71DCAD7CA00EA35F1 /* AppDelegate.swift */; };
+		81544DEA1DCAD7CA00EA35F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81544DE91DCAD7CA00EA35F1 /* ViewController.swift */; };
+		81544DED1DCAD7CA00EA35F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81544DEB1DCAD7CA00EA35F1 /* Main.storyboard */; };
+		81544DEF1DCAD7CA00EA35F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81544DEE1DCAD7CA00EA35F1 /* Assets.xcassets */; };
+		81544DF21DCAD7CA00EA35F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81544DF01DCAD7CA00EA35F1 /* LaunchScreen.storyboard */; };
+		81544DFD1DCAD7CA00EA35F1 /* _21Travel_UISearchBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81544DFC1DCAD7CA00EA35F1 /* _21Travel_UISearchBarTests.swift */; };
+		81544E081DCAD7CA00EA35F1 /* _21Travel_UISearchBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81544E071DCAD7CA00EA35F1 /* _21Travel_UISearchBarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81544DF91DCAD7CA00EA35F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81544DDC1DCAD7CA00EA35F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81544DE31DCAD7CA00EA35F1;
+			remoteInfo = 521Travel_UISearchBar;
+		};
+		81544E041DCAD7CA00EA35F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81544DDC1DCAD7CA00EA35F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81544DE31DCAD7CA00EA35F1;
+			remoteInfo = 521Travel_UISearchBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81544DE41DCAD7CA00EA35F1 /* 521Travel_UISearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 521Travel_UISearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81544DE71DCAD7CA00EA35F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81544DE91DCAD7CA00EA35F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81544DEC1DCAD7CA00EA35F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81544DEE1DCAD7CA00EA35F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81544DF11DCAD7CA00EA35F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81544DF31DCAD7CA00EA35F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81544DF81DCAD7CA00EA35F1 /* 521Travel_UISearchBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 521Travel_UISearchBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81544DFC1DCAD7CA00EA35F1 /* _21Travel_UISearchBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _21Travel_UISearchBarTests.swift; sourceTree = "<group>"; };
+		81544DFE1DCAD7CA00EA35F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81544E031DCAD7CA00EA35F1 /* 521Travel_UISearchBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 521Travel_UISearchBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81544E071DCAD7CA00EA35F1 /* _21Travel_UISearchBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _21Travel_UISearchBarUITests.swift; sourceTree = "<group>"; };
+		81544E091DCAD7CA00EA35F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81544DE11DCAD7CA00EA35F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81544DF51DCAD7CA00EA35F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81544E001DCAD7CA00EA35F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81544DDB1DCAD7CA00EA35F1 = {
+			isa = PBXGroup;
+			children = (
+				81544DE61DCAD7CA00EA35F1 /* 521Travel_UISearchBar */,
+				81544DFB1DCAD7CA00EA35F1 /* 521Travel_UISearchBarTests */,
+				81544E061DCAD7CA00EA35F1 /* 521Travel_UISearchBarUITests */,
+				81544DE51DCAD7CA00EA35F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81544DE51DCAD7CA00EA35F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81544DE41DCAD7CA00EA35F1 /* 521Travel_UISearchBar.app */,
+				81544DF81DCAD7CA00EA35F1 /* 521Travel_UISearchBarTests.xctest */,
+				81544E031DCAD7CA00EA35F1 /* 521Travel_UISearchBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81544DE61DCAD7CA00EA35F1 /* 521Travel_UISearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				81544DE71DCAD7CA00EA35F1 /* AppDelegate.swift */,
+				81544DE91DCAD7CA00EA35F1 /* ViewController.swift */,
+				81544DEB1DCAD7CA00EA35F1 /* Main.storyboard */,
+				81544DEE1DCAD7CA00EA35F1 /* Assets.xcassets */,
+				81544DF01DCAD7CA00EA35F1 /* LaunchScreen.storyboard */,
+				81544DF31DCAD7CA00EA35F1 /* Info.plist */,
+			);
+			path = 521Travel_UISearchBar;
+			sourceTree = "<group>";
+		};
+		81544DFB1DCAD7CA00EA35F1 /* 521Travel_UISearchBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				81544DFC1DCAD7CA00EA35F1 /* _21Travel_UISearchBarTests.swift */,
+				81544DFE1DCAD7CA00EA35F1 /* Info.plist */,
+			);
+			path = 521Travel_UISearchBarTests;
+			sourceTree = "<group>";
+		};
+		81544E061DCAD7CA00EA35F1 /* 521Travel_UISearchBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81544E071DCAD7CA00EA35F1 /* _21Travel_UISearchBarUITests.swift */,
+				81544E091DCAD7CA00EA35F1 /* Info.plist */,
+			);
+			path = 521Travel_UISearchBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81544DE31DCAD7CA00EA35F1 /* 521Travel_UISearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81544E0C1DCAD7CA00EA35F1 /* Build configuration list for PBXNativeTarget "521Travel_UISearchBar" */;
+			buildPhases = (
+				81544DE01DCAD7CA00EA35F1 /* Sources */,
+				81544DE11DCAD7CA00EA35F1 /* Frameworks */,
+				81544DE21DCAD7CA00EA35F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 521Travel_UISearchBar;
+			productName = 521Travel_UISearchBar;
+			productReference = 81544DE41DCAD7CA00EA35F1 /* 521Travel_UISearchBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81544DF71DCAD7CA00EA35F1 /* 521Travel_UISearchBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81544E0F1DCAD7CA00EA35F1 /* Build configuration list for PBXNativeTarget "521Travel_UISearchBarTests" */;
+			buildPhases = (
+				81544DF41DCAD7CA00EA35F1 /* Sources */,
+				81544DF51DCAD7CA00EA35F1 /* Frameworks */,
+				81544DF61DCAD7CA00EA35F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81544DFA1DCAD7CA00EA35F1 /* PBXTargetDependency */,
+			);
+			name = 521Travel_UISearchBarTests;
+			productName = 521Travel_UISearchBarTests;
+			productReference = 81544DF81DCAD7CA00EA35F1 /* 521Travel_UISearchBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81544E021DCAD7CA00EA35F1 /* 521Travel_UISearchBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81544E121DCAD7CA00EA35F1 /* Build configuration list for PBXNativeTarget "521Travel_UISearchBarUITests" */;
+			buildPhases = (
+				81544DFF1DCAD7CA00EA35F1 /* Sources */,
+				81544E001DCAD7CA00EA35F1 /* Frameworks */,
+				81544E011DCAD7CA00EA35F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81544E051DCAD7CA00EA35F1 /* PBXTargetDependency */,
+			);
+			name = 521Travel_UISearchBarUITests;
+			productName = 521Travel_UISearchBarUITests;
+			productReference = 81544E031DCAD7CA00EA35F1 /* 521Travel_UISearchBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81544DDC1DCAD7CA00EA35F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = 521Travel.com;
+				TargetAttributes = {
+					81544DE31DCAD7CA00EA35F1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K9UVDYE39X;
+						ProvisioningStyle = Automatic;
+					};
+					81544DF71DCAD7CA00EA35F1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K9UVDYE39X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81544DE31DCAD7CA00EA35F1;
+					};
+					81544E021DCAD7CA00EA35F1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K9UVDYE39X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81544DE31DCAD7CA00EA35F1;
+					};
+				};
+			};
+			buildConfigurationList = 81544DDF1DCAD7CA00EA35F1 /* Build configuration list for PBXProject "521Travel_UISearchBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81544DDB1DCAD7CA00EA35F1;
+			productRefGroup = 81544DE51DCAD7CA00EA35F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81544DE31DCAD7CA00EA35F1 /* 521Travel_UISearchBar */,
+				81544DF71DCAD7CA00EA35F1 /* 521Travel_UISearchBarTests */,
+				81544E021DCAD7CA00EA35F1 /* 521Travel_UISearchBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81544DE21DCAD7CA00EA35F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81544DF21DCAD7CA00EA35F1 /* LaunchScreen.storyboard in Resources */,
+				81544DEF1DCAD7CA00EA35F1 /* Assets.xcassets in Resources */,
+				81544DED1DCAD7CA00EA35F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81544DF61DCAD7CA00EA35F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81544E011DCAD7CA00EA35F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81544DE01DCAD7CA00EA35F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81544DEA1DCAD7CA00EA35F1 /* ViewController.swift in Sources */,
+				81544DE81DCAD7CA00EA35F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81544DF41DCAD7CA00EA35F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81544DFD1DCAD7CA00EA35F1 /* _21Travel_UISearchBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81544DFF1DCAD7CA00EA35F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81544E081DCAD7CA00EA35F1 /* _21Travel_UISearchBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81544DFA1DCAD7CA00EA35F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81544DE31DCAD7CA00EA35F1 /* 521Travel_UISearchBar */;
+			targetProxy = 81544DF91DCAD7CA00EA35F1 /* PBXContainerItemProxy */;
+		};
+		81544E051DCAD7CA00EA35F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81544DE31DCAD7CA00EA35F1 /* 521Travel_UISearchBar */;
+			targetProxy = 81544E041DCAD7CA00EA35F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81544DEB1DCAD7CA00EA35F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81544DEC1DCAD7CA00EA35F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81544DF01DCAD7CA00EA35F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81544DF11DCAD7CA00EA35F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81544E0A1DCAD7CA00EA35F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81544E0B1DCAD7CA00EA35F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81544E0D1DCAD7CA00EA35F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K9UVDYE39X;
+				INFOPLIST_FILE = 521Travel_UISearchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panda.-21Travel-UISearchBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		81544E0E1DCAD7CA00EA35F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K9UVDYE39X;
+				INFOPLIST_FILE = 521Travel_UISearchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panda.-21Travel-UISearchBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		81544E101DCAD7CA00EA35F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K9UVDYE39X;
+				INFOPLIST_FILE = 521Travel_UISearchBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panda.-21Travel-UISearchBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/521Travel_UISearchBar.app/521Travel_UISearchBar";
+			};
+			name = Debug;
+		};
+		81544E111DCAD7CA00EA35F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K9UVDYE39X;
+				INFOPLIST_FILE = 521Travel_UISearchBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panda.-21Travel-UISearchBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/521Travel_UISearchBar.app/521Travel_UISearchBar";
+			};
+			name = Release;
+		};
+		81544E131DCAD7CA00EA35F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K9UVDYE39X;
+				INFOPLIST_FILE = 521Travel_UISearchBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panda.-21Travel-UISearchBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = 521Travel_UISearchBar;
+			};
+			name = Debug;
+		};
+		81544E141DCAD7CA00EA35F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K9UVDYE39X;
+				INFOPLIST_FILE = 521Travel_UISearchBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panda.-21Travel-UISearchBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = 521Travel_UISearchBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81544DDF1DCAD7CA00EA35F1 /* Build configuration list for PBXProject "521Travel_UISearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81544E0A1DCAD7CA00EA35F1 /* Debug */,
+				81544E0B1DCAD7CA00EA35F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81544E0C1DCAD7CA00EA35F1 /* Build configuration list for PBXNativeTarget "521Travel_UISearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81544E0D1DCAD7CA00EA35F1 /* Debug */,
+				81544E0E1DCAD7CA00EA35F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81544E0F1DCAD7CA00EA35F1 /* Build configuration list for PBXNativeTarget "521Travel_UISearchBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81544E101DCAD7CA00EA35F1 /* Debug */,
+				81544E111DCAD7CA00EA35F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81544E121DCAD7CA00EA35F1 /* Build configuration list for PBXNativeTarget "521Travel_UISearchBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81544E131DCAD7CA00EA35F1 /* Debug */,
+				81544E141DCAD7CA00EA35F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81544DDC1DCAD7CA00EA35F1 /* Project object */;
+}
